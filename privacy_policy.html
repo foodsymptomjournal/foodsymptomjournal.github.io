@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Food &amp; Symptom Journal.">
+  <title>Privacy Policy - Food &amp; Symptom Journal</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f8f7f2;
+      --surface: #ffffff;
+      --text: #17201c;
+      --secondary: #4f6258;
+      --green: #356b52;
+      --green-dark: #183a2b;
+      --sage: #78ae91;
+      --border: #d5dfd8;
+      --notice: #eef4f0;
+      --shadow: 0 16px 40px rgba(24, 58, 43, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 17px;
+      line-height: 1.65;
+    }
+
+    a { color: var(--green); }
+    a:hover { color: var(--green-dark); }
+
+    .page {
+      width: min(880px, calc(100% - 32px));
+      margin: 44px auto;
+    }
+
+    header {
+      padding: 34px;
+      border-radius: 28px;
+      background: var(--green-dark);
+      color: #f4fff9;
+      box-shadow: var(--shadow);
+    }
+
+    header p { margin: 8px 0 0; color: #d8e8df; }
+    h1 { margin: 0; font-size: clamp(2rem, 7vw, 3.25rem); line-height: 1.08; }
+    h2 { margin: 0 0 10px; color: var(--green-dark); font-size: 1.35rem; line-height: 1.3; }
+    p { margin: 0 0 14px; }
+    ul { margin: 0 0 14px; padding-left: 1.25rem; }
+
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      margin: 22px 0;
+    }
+
+    .language-switcher {
+      display: inline-flex;
+      gap: 4px;
+      padding: 4px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--surface);
+    }
+
+    .language-switcher button {
+      border: 0;
+      border-radius: 999px;
+      padding: 9px 15px;
+      background: transparent;
+      color: var(--text);
+      font: inherit;
+      font-size: 0.9rem;
+      font-weight: 650;
+      cursor: pointer;
+    }
+
+    .language-switcher button[aria-pressed="true"] {
+      background: var(--green);
+      color: white;
+    }
+
+    .effective-date { color: var(--secondary); font-size: 0.95rem; }
+
+    .summary {
+      margin: 0 0 18px;
+      padding: 20px 22px;
+      border: 1px solid var(--border);
+      border-left: 5px solid var(--sage);
+      border-radius: 16px;
+      background: var(--notice);
+    }
+
+    section {
+      margin: 16px 0;
+      padding: 24px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: var(--surface);
+      box-shadow: 0 8px 22px rgba(24, 58, 43, 0.045);
+    }
+
+    footer {
+      padding: 26px 6px 10px;
+      color: var(--secondary);
+      font-size: 0.92rem;
+      text-align: center;
+    }
+
+    [data-language] { display: none; }
+    [data-language].active { display: block; }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #111a16;
+        --surface: #19251f;
+        --text: #eef2ed;
+        --secondary: #b8c8bf;
+        --green: #78ae91;
+        --green-dark: #b3f9db;
+        --border: #365044;
+        --notice: #223129;
+        --shadow: none;
+      }
+      header { background: #183a2b; }
+      .language-switcher button[aria-pressed="true"] { color: #111a16; }
+    }
+
+    @media (max-width: 620px) {
+      .page { margin: 16px auto 28px; }
+      header { padding: 26px 22px; border-radius: 22px; }
+      .toolbar { align-items: flex-start; flex-direction: column-reverse; }
+      section { padding: 20px; }
+    }
+
+    @media print {
+      :root {
+        --background: white;
+        --surface: white;
+        --text: black;
+        --secondary: #444;
+        --green: #244c39;
+        --green-dark: #183a2b;
+        --border: #bbb;
+        --notice: #f3f3f3;
+        --shadow: none;
+      }
+      body { font-size: 11pt; }
+      .page { width: 100%; margin: 0; }
+      header { color: white; padding: 22px; }
+      .language-switcher { display: none; }
+      section { break-inside: avoid; box-shadow: none; }
+      a { color: black; text-decoration: none; }
+      footer { padding-bottom: 0; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Food &amp; Symptom Journal</h1>
+      <p>Privacy Policy / Política de Privacidad</p>
+    </header>
+
+    <div class="toolbar">
+      <div class="effective-date">
+        <span data-language="en">Effective: August 21, 2026</span>
+        <span data-language="es">Vigente desde: 21 de agosto de 2026</span>
+      </div>
+      <nav class="language-switcher" aria-label="Language / Idioma">
+        <button type="button" data-set-language="en" aria-pressed="true">English</button>
+        <button type="button" data-set-language="es" aria-pressed="false">Español</button>
+      </nav>
+    </div>
+
+    <article data-language="en">
+      <div class="summary">
+        <strong>Privacy at a glance:</strong> Your journal is stored locally on your device. The app does not require an account, contain advertising or analytics, or send journal records to servers operated by the developer. You control any backup or PDF files you choose to create and share.
+      </div>
+
+      <section>
+        <h2>1. Scope</h2>
+        <p>This Privacy Policy explains how Food &amp; Symptom Journal (the “App”), developed by Samuel Higueros, handles information when you use the App or contact support.</p>
+      </section>
+
+      <section>
+        <h2>2. Information stored by the App</h2>
+        <p>The App stores the information you enter in a local database on your device. Depending on how you use it, this may include:</p>
+        <ul>
+          <li>Foods, meals, amounts, ingredients, and notes;</li>
+          <li>Symptoms, severity ratings, supplements, and bowel movements;</li>
+          <li>Safe Foods, comparison periods, transit tests, and related observations; and</li>
+          <li>Language, theme, notification, and onboarding preferences.</li>
+        </ul>
+        <p>This locally stored journal information is not transmitted to or accessible by the developer.</p>
+      </section>
+
+      <section>
+        <h2>3. Data collection, accounts, advertising, and analytics</h2>
+        <p>The App does not require or offer an account. It does not include advertising, third-party analytics, or tracking technologies. The developer does not collect journal records, device identifiers, location, contacts, browsing history, or usage analytics through the App. Core features work without an internet connection.</p>
+      </section>
+
+      <section>
+        <h2>4. Optional notifications</h2>
+        <p>If you enable an end reminder for a comparison period, the App requests notification permission and schedules that reminder locally on your device. The reminder is not sent through a server operated by the developer. Its content may appear on your lock screen according to your device settings. You may disable notifications in the App or in your device settings.</p>
+      </section>
+
+      <section>
+        <h2>5. Backups, PDF reports, and user-directed sharing</h2>
+        <p>The App creates a backup or Health Journal Report only when you request it. These files may contain sensitive journal information.</p>
+        <ul>
+          <li>Backup files are not encrypted by the App.</li>
+          <li>The App does not automatically upload or share exported files.</li>
+          <li>If you save or share a file through the system file picker or share sheet, the destination or service you choose handles that file under its own privacy and security practices.</li>
+        </ul>
+        <p>Review the contents and recipient before sharing, and store backups somewhere you trust.</p>
+      </section>
+
+      <section>
+        <h2>6. Support communications</h2>
+        <p>If you contact support by email, the developer receives your email address and the information you choose to include. This information is collected directly from you and used only to respond, troubleshoot, maintain records of the request when reasonably necessary, and comply with legal obligations. Do not include journal or health information unless you are comfortable sharing it.</p>
+        <p>Support email is provided through Gmail and is therefore processed by Google under <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google’s Privacy Policy</a>. The developer does not sell support information or use it for advertising.</p>
+      </section>
+
+      <section>
+        <h2>7. Retention and deletion</h2>
+        <p>Journal information remains on your device until you delete individual records, restore a different backup, erase the App’s data, or uninstall the App. Uninstalling the App removes its locally stored data, subject to your device’s operating-system behavior. It does not remove backup files or PDF reports saved elsewhere.</p>
+        <p>Because the developer does not possess your journal database, the developer cannot retrieve or delete it for you. You control deletion directly on your device. Support emails are retained only as long as reasonably necessary for support, recordkeeping, security, or legal obligations. You may request deletion of a support conversation by contacting the address below, subject to any legally required retention.</p>
+      </section>
+
+      <section>
+        <h2>8. Security</h2>
+        <p>The App’s local-only design limits transmission of journal information, but no device or storage method is completely secure. Protect your device with an appropriate passcode and operating-system security features. Exported backups are not encrypted by the App, so protect them separately and share them carefully.</p>
+      </section>
+
+      <section>
+        <h2>9. Health and educational information</h2>
+        <p>The App provides educational content and tools for recording observations and exploring possible patterns. It does not diagnose medical conditions or replace advice, diagnosis, or treatment from a qualified healthcare professional.</p>
+      </section>
+
+      <section>
+        <h2>10. Changes to this policy</h2>
+        <p>This policy may be updated when the App’s features or privacy practices change. The effective date at the top of this page will be revised when an update is published. Material changes will be communicated through the App or its store listing when appropriate.</p>
+      </section>
+
+      <section>
+        <h2>11. Contact</h2>
+        <p>Developer: Samuel Higueros</p>
+        <p>Privacy and support questions: <a href="mailto:foodsymptomjournal.support@gmail.com">foodsymptomjournal.support@gmail.com</a></p>
+      </section>
+    </article>
+
+    <article data-language="es">
+      <div class="summary">
+        <strong>Privacidad en resumen:</strong> Tu diario se guarda localmente en tu dispositivo. La app no requiere una cuenta, no contiene publicidad ni analíticas y no envía los registros del diario a servidores operados por el desarrollador. Tú controlas los archivos de copia de seguridad o PDF que decidas crear y compartir.
+      </div>
+
+      <section>
+        <h2>1. Alcance</h2>
+        <p>Esta Política de Privacidad explica cómo Diario de alimentos y síntomas (la “App”), desarrollada por Samuel Higueros, maneja la información cuando usas la App o contactas al servicio de soporte.</p>
+      </section>
+
+      <section>
+        <h2>2. Información guardada por la App</h2>
+        <p>La App guarda la información que ingresas en una base de datos local en tu dispositivo. Según cómo la uses, esto puede incluir:</p>
+        <ul>
+          <li>Alimentos, comidas, cantidades, ingredientes y notas;</li>
+          <li>Síntomas, niveles de severidad, suplementos y evacuaciones intestinales;</li>
+          <li>Alimentos seguros, períodos de comparación, pruebas de tránsito y observaciones relacionadas; y</li>
+          <li>Preferencias de idioma, tema, notificaciones e introducción.</li>
+        </ul>
+        <p>La información del diario guardada localmente no se transmite al desarrollador ni es accesible para él.</p>
+      </section>
+
+      <section>
+        <h2>3. Recopilación de datos, cuentas, publicidad y analíticas</h2>
+        <p>La App no requiere ni ofrece una cuenta. No incluye publicidad, analíticas de terceros ni tecnologías de rastreo. El desarrollador no recopila registros del diario, identificadores del dispositivo, ubicación, contactos, historial de navegación ni analíticas de uso mediante la App. Las funciones principales trabajan sin conexión a internet.</p>
+      </section>
+
+      <section>
+        <h2>4. Notificaciones opcionales</h2>
+        <p>Si activas un recordatorio de finalización para un período de comparación, la App solicita permiso para notificaciones y programa el recordatorio localmente en tu dispositivo. El recordatorio no se envía por medio de un servidor operado por el desarrollador. Su contenido puede aparecer en la pantalla bloqueada según la configuración de tu dispositivo. Puedes desactivar las notificaciones en la App o en la configuración del dispositivo.</p>
+      </section>
+
+      <section>
+        <h2>5. Copias de seguridad, informes PDF y contenido compartido por decisión del usuario</h2>
+        <p>La App crea una copia de seguridad o un Informe del diario de salud solo cuando tú lo solicitas. Estos archivos pueden contener información sensible de tu diario.</p>
+        <ul>
+          <li>La App no cifra los archivos de copia de seguridad.</li>
+          <li>La App no sube ni comparte automáticamente los archivos exportados.</li>
+          <li>Si guardas o compartes un archivo mediante el selector de archivos o menú para compartir del sistema, el destino o servicio que elijas maneja ese archivo según sus propias prácticas de privacidad y seguridad.</li>
+        </ul>
+        <p>Revisa el contenido y el destinatario antes de compartir, y guarda las copias de seguridad en un lugar de confianza.</p>
+      </section>
+
+      <section>
+        <h2>6. Comunicaciones con soporte</h2>
+        <p>Si contactas a soporte por correo electrónico, el desarrollador recibe tu dirección de correo y la información que decidas incluir. Esta información se recopila directamente de ti y se usa solo para responder, solucionar problemas, mantener registros de la solicitud cuando sea razonablemente necesario y cumplir obligaciones legales. No incluyas información del diario o de salud a menos que te sientas cómodo compartiéndola.</p>
+        <p>El correo de soporte funciona mediante Gmail y, por lo tanto, es procesado por Google conforme a la <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Política de Privacidad de Google</a>. El desarrollador no vende la información de soporte ni la utiliza para publicidad.</p>
+      </section>
+
+      <section>
+        <h2>7. Retención y eliminación</h2>
+        <p>La información del diario permanece en tu dispositivo hasta que elimines registros individuales, restaures otra copia de seguridad, borres los datos de la App o desinstales la App. Desinstalar la App elimina sus datos locales, sujeto al funcionamiento del sistema operativo de tu dispositivo. Esto no elimina copias de seguridad ni informes PDF guardados en otro lugar.</p>
+        <p>Como el desarrollador no posee la base de datos de tu diario, no puede recuperarla ni eliminarla por ti. Tú controlas la eliminación directamente en tu dispositivo. Los correos de soporte se conservan solo durante el tiempo razonablemente necesario para soporte, registros, seguridad u obligaciones legales. Puedes solicitar la eliminación de una conversación de soporte escribiendo a la dirección indicada abajo, sujeto a cualquier conservación exigida por ley.</p>
+      </section>
+
+      <section>
+        <h2>8. Seguridad</h2>
+        <p>El diseño local de la App limita la transmisión de la información del diario, pero ningún dispositivo o método de almacenamiento es completamente seguro. Protege tu dispositivo con un código adecuado y las funciones de seguridad del sistema operativo. La App no cifra las copias de seguridad exportadas, así que protégelas por separado y compártelas con cuidado.</p>
+      </section>
+
+      <section>
+        <h2>9. Información educativa y de salud</h2>
+        <p>La App ofrece contenido educativo y herramientas para registrar observaciones y explorar posibles patrones. No diagnostica condiciones médicas ni reemplaza la orientación, diagnóstico o tratamiento de un profesional de salud calificado.</p>
+      </section>
+
+      <section>
+        <h2>10. Cambios a esta política</h2>
+        <p>Esta política puede actualizarse cuando cambien las funciones o prácticas de privacidad de la App. La fecha de vigencia al inicio de esta página se actualizará cuando se publique un cambio. Los cambios importantes se comunicarán por medio de la App o su ficha en la tienda cuando corresponda.</p>
+      </section>
+
+      <section>
+        <h2>11. Contacto</h2>
+        <p>Desarrollador: Samuel Higueros</p>
+        <p>Preguntas de privacidad y soporte: <a href="mailto:foodsymptomjournal.support@gmail.com">foodsymptomjournal.support@gmail.com</a></p>
+      </section>
+    </article>
+
+    <footer>
+      Food &amp; Symptom Journal · foodsymptomjournal.support@gmail.com
+    </footer>
+  </main>
+
+  <script>
+    (() => {
+      const supported = ["en", "es"];
+      const browserLanguage = (navigator.language || "en").slice(0, 2);
+      let currentLanguage = supported.includes(browserLanguage) ? browserLanguage : "en";
+
+      function setLanguage(language) {
+        currentLanguage = supported.includes(language) ? language : "en";
+        document.documentElement.lang = currentLanguage;
+        document.querySelectorAll("[data-language]").forEach((element) => {
+          element.classList.toggle("active", element.dataset.language === currentLanguage);
+        });
+        document.querySelectorAll("[data-set-language]").forEach((button) => {
+          button.setAttribute("aria-pressed", String(button.dataset.setLanguage === currentLanguage));
+        });
+      }
+
+      document.querySelectorAll("[data-set-language]").forEach((button) => {
+        button.addEventListener("click", () => setLanguage(button.dataset.setLanguage));
+      });
+
+      setLanguage(currentLanguage);
+    })();
+  </script>
+</body>
+</html>
